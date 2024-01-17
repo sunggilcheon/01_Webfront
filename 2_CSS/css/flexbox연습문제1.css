@@ -1,4 +1,4 @@
-*div {border: 1px solid black;}
+* {border: 1px solid black;}
 
 .mom {
     border: 1px solid black;
@@ -241,9 +241,6 @@
     display: flex;
     flex-direction: column;
 }
-.small-1, .small-2 {
-    border: 1px solid black;
-}
 
 .small-1{
     flex-basis: 50%;
@@ -263,10 +260,6 @@
     background-color: pink;
     display: flex;
     flex-direction: column;
-}
-
-.m2-4 >div {
-    border: 1px solid black;
 }
 
 .m2-4-1 {
