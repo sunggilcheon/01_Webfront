@@ -178,18 +178,18 @@ header > section:nth-child(1) {
 
 }
 
-#upload:hover {
+.upload-alarm-profile> div> #upload:hover {
     background-color: rgb(230, 230, 230);
     transition: 0.3s;
     border-radius: 100%;
-    padding: 12px
+    padding: 12px;
 }
 
 #alarm:hover {
     background-color: rgb(230, 230, 230);
     transition: 0.3s;
     border-radius: 100%;
-    padding: 12px
+    padding: 12px;
 }
 
 #video area {
@@ -197,7 +197,7 @@ header > section:nth-child(1) {
 
 }
 
-.video-area {
+.video {
     display: flex;
 }
 
@@ -216,6 +216,135 @@ header > section:nth-child(1) {
 
 .sub-video {
     display: flex;
+    height: 1000px;
     flex-basis: 40%;
 
 }
+
+#inform {
+    display: flex;   
+}
+
+.inform1{
+    flex-basis: 5%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inform1 > .img{
+    padding: 10px 0px;
+    border-radius: 100%;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inform2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    justify-content: center;
+}
+
+
+
+.inform2 > .inf2-2 {
+    font-size: 10px;
+    line-height: 2;
+}
+
+.inform3 {
+    flex-basis: 5%;
+    display: flex;
+    align-items: center;
+}
+
+
+.inf3-1 > button {
+    height: 35px;
+    width: 60px;
+    color: white;
+    background-color: black;
+    border : none;
+    border-radius : 40px 40px 40px 40px;
+    font-size: 40x;
+    text-align: center;
+    cursor: pointer;
+}
+
+.empty {
+    flex-basis: 20%;
+}
+
+.sub-video {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 40px;
+}
+
+.buttons {
+    display: flex;
+}
+
+
+.like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like > button{
+    height: 35px;
+    width: 80px;
+    color: black;
+    background-color: fff;
+    border : none;
+    border-radius : 40px 0px 0px 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.dislike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dislike > button{
+    height: 35px;
+    width: 50px;
+    color: black;
+    background-color: fff;
+    border: none;
+    border-left : 1px solid lightgray;
+    border-radius : 0px 40px 40px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share > button {
+    height: 35px;
+    width: 80px;
+    color: black;
+    background-color: fff;
+    border : none;
+    border-radius : 40px 40px 40px 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
